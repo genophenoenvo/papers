@@ -22,7 +22,7 @@ author:
   # https://github.com/MagicMilly
   # email: ejcain@arizona.edu
   # orcid: 0000-0002-4671-1524
-- Ishita Debnath^[Michigan State University]
+- Ishita Debnath
 - Pankaj Jaiswal
 - Ab Mosca
 - Monica Munoz-Torres
@@ -32,7 +32,7 @@ author:
   # http://www.cs.tufts.edu/~remco
   # email: remco@cs.tufts.edu
   # orcid: 0000-0002-6484-6430
-- Arun Ross^[Michigan State University]
+- Arun Ross
 - Anne E Thessen^[Oregon State University]
   # https://github.com/diatomsRcool
   # email: annethessen@gmail.com
