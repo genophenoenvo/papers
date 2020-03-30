@@ -15,6 +15,9 @@ COPY . ${HOME}
 ## COPY binder ${HOME}
 RUN chown -R ${NB_USER} ${HOME}
 
+#Installs TinyTeX for RStudio LaTeX
+RUN cd && wget -qO- "https://yihui.org/gh/tinytex/tools/install-unx.sh" | sh
+
 ## Become normal user again
 USER ${NB_USER}
 
