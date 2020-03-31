@@ -2,6 +2,9 @@
 title: "Do androids dream of electric sorhgum?"
 header-includes:
   - \usepackage[sort&compress, numbers]{natbib}
+  - \linespread{2}
+  - \usepackage[left]{lineno}
+  - \linenumbers
 subtitle: "Predicting Phenotype from Multi-Scale Genomic and Environment Data using Neural Networks and Knowledge Graphs"
 keywords: "machine learning, genomics, phenotype"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
