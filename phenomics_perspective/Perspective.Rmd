@@ -26,18 +26,27 @@ author:
   # email: ejcain@arizona.edu
   # orcid: 0000-0002-4671-1524
 - Ishita Debnath^[Michigan State University]
-- Pankaj Jaiswal
-- Ab Mosca^[Tufts University]
-  # email: amosca01@cs.tufts.edu
-  # orcid: 0000-0002-9008-5516
-- Monica Munoz-Torres
-- Kent Shefchek
-- P. Bryan Heidorn
+  # email: debnathi@msu.edu
+  # orcid: 000-0002-8626-4167
+- Pankaj Jaiswal^[Oregon State University]
+  # email: jaiswalp@science.oregonstate.edu
+  # orcid: 0000-0002-1005-8383
+- Ab Mosca
+- Monica Munoz-Torres^[Oregon State University]
+  # email: munoztmo@oregonstate.edu
+  # orcid: 0000-0001-8430-6039
+- Kent Shefchek^[Oregon State University]
+  # email: shefchek@oregonstate.edu 
+- P. Bryan Heidorn^[University of Arizona]
+  # email: heidorn@arizona.edu
+  # orcid: 0000-0002-4601-8180
 - Remco Chang^[Tufts University]
   # http://www.cs.tufts.edu/~remco
   # email: remco@cs.tufts.edu
   # orcid: 0000-0002-6484-6430
 - Arun Ross^[Michigan State University]
+  # rossarun@msu.edu
+  # orcid: 0000-0001-8850-3013
 - Anne E Thessen^[Oregon State University]
   # https://github.com/diatomsRcool
   # email: annethessen@gmail.com
