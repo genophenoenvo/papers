@@ -27,7 +27,9 @@ author:
   # orcid: 0000-0002-4671-1524
 - Ishita Debnath^[Michigan State University]
 - Pankaj Jaiswal
-- Ab Mosca
+- Ab Mosca^[Tufts University]
+  # email: amosca01@cs.tufts.edu
+  # orcid: 0000-0002-9008-5516
 - Monica Munoz-Torres
 - Kent Shefchek
 - P. Bryan Heidorn
