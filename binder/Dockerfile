@@ -16,7 +16,9 @@ COPY . ${HOME}
 RUN chown -R ${NB_USER} ${HOME}
 
 #Installs TinyTeX for RStudio LaTeX
-RUN cd && wget -qO- "https://yihui.org/gh/tinytex/tools/install-unx.sh" | sh && tlmgr install psnfss
+RUN cd && wget -qO- "https://yihui.org/gh/tinytex/tools/install-unx.sh" | sh 
+    && tlmgr install psnfss 
+    && apt-get install -y texlive-latex-extra
 
 ## Become normal user again
 USER ${NB_USER}
