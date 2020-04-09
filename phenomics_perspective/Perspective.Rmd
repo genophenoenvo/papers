@@ -1,71 +1,101 @@
 ---
-title: "Do androids dream of electric sorhgum?"
-header-includes:
-  - \usepackage[sort&compress, numbers]{natbib}
-  - \linespread{2}
-  - \usepackage[left]{lineno}
-  - \linenumbers
-subtitle: "Predicting Phenotype from Multi-Scale Genomic and Environment Data using Neural Networks and Knowledge Graphs"
-keywords: "machine learning, genomics, phenotype"
-date: "`r format(Sys.time(), '%B %d, %Y')`"
-author:
-- Ryan P Bartelme^[Corresponding Author rbartelme@arizona.edu, University of Arizona]
-  # https://github.com/rbartleme
-  # orcid: 0000-0002-6178-2603
-- David S LeBauer^[University of Arizona]
-  # https://github.com/dlebauer
-  # email: dlebauer@arizona.edu
-  # orcid: 0000-0001-7228-053X
-- Tyson L Swetnam^[University of Arizona]
-  # https://github.com/tyson-swetnam
-  # email: tswetnam@arizona.edu
-  # orcid: 0000-0002-6639-7181
-- Michael Behrish
-- Emily J Cain^[University of Arizona]
-  # https://github.com/MagicMilly
-  # email: ejcain@arizona.edu
-  # orcid: 0000-0002-4671-1524
-- Ishita Debnath^[Michigan State University]
-  # email: debnathi@msu.edu
-  # orcid: 000-0002-8626-4167
-- Pankaj Jaiswal^[Oregon State University]
-  # email: jaiswalp@science.oregonstate.edu
-  # orcid: 0000-0002-1005-8383
-- Ab Mosca
-- Monica Munoz-Torres^[Oregon State University]
-  # email: munoztmo@oregonstate.edu
-  # orcid: 0000-0001-8430-6039
-- Kent Shefchek^[Oregon State University]
-  # email: shefchek@oregonstate.edu 
-- P. Bryan Heidorn^[University of Arizona]
-  # email: heidorn@arizona.edu
-  # orcid: 0000-0002-4601-8180
-- Remco Chang^[Tufts University]
-  # http://www.cs.tufts.edu/~remco
-  # email: remco@cs.tufts.edu
-  # orcid: 0000-0002-6484-6430
-- Arun Ross^[Michigan State University]
-  # rossarun@msu.edu
-  # orcid: 0000-0001-8850-3013
-- Anne E Thessen^[Oregon State University]
-  # https://github.com/diatomsRcool
-  # email: annethessen@gmail.com
-  # orcid: 0000-0002-2908-3327
-
-bibliography: references.bib
-biblio-style: plantphenomics
-thanks: "Replication files are available on the corresponding author's Github account"
 output:
   pdf_document:
     citation_package: natbib
     keep_tex: true
     fig_caption: true
     latex_engine: pdflatex
-keep-latex: true
-fontsize: 12pt
+    template: mod-svm-latex-ms.tex
+
+header-includes:
+  - \linespread{2}
+  - \usepackage[left]{lineno}
+  - \linenumbers
+
+title: "Do androids dream of electric sorhgum?"
+subtitle: "Predicting Phenotype from Multi-Scale Genomic and Environment Data using Neural Networks and Knowledge Graphs"
+author:
+- name: Ryan P Bartelme
+  affiliation: University of Arizona
+  #email: rbartelme@email.arizona.edu
+  # https://github.com/rbartleme
+  # orcid: 0000-0002-6178-2603
+- name: David S LeBauer
+  affiliation: University of Arizona
+  #correspondence: FALSE
+  # https://github.com/dlebauer
+  # email: dlebauer@arizona.edu
+  # orcid: 0000-0001-7228-053X
+- name: Tyson L Swetnam
+  affiliation: University of Arizona
+  # https://github.com/tyson-swetnam
+  # email: tswetnam@arizona.edu
+  # orcid: 0000-0002-6639-7181
+- name: Michael Behrisch
+  affiliation: Utrecht University
+  #correspondence: FALSE
+- name: Emily J Cain
+  affiliation: Univerisity of Arizona
+  # https://github.com/MagicMilly
+  # email: ejcain@arizona.edu
+  # orcid: 0000-0002-4671-1524
+- name: Ishita Debnath
+  affiliation: Michigan State University
+  #correspondence: FALSE
+  # email: debnathi@msu.edu
+  # orcid: 000-0002-8626-4167
+- name: Pankaj Jaiswal
+  affiliation: Oregon State University
+  #correspondence: FALSE
+  # email: jaiswalp@science.oregonstate.edu
+  # orcid: 0000-0002-1005-8383
+- name: Ab Mosca
+  affiliation: Tufts University
+  #correspondence: FALSE
+- name: Monica Munoz-Torres
+  affiliation: Oregon State University
+  #correspondence: FALSE
+  # email: munoztmo@oregonstate.edu
+  # orcid: 0000-0001-8430-6039
+- name: Kent Shefchek
+  affiliation: Oregon State University
+  #correspondence: FALSE
+  # email: shefchek@oregonstate.edu
+- name: P. Bryan Heidorn
+  affiliation: University of Arizona
+  #correspondence: FALSE
+  # email: heidorn@arizona.edu
+  # orcid: 0000-0002-4601-8180
+- name: Remco Chang
+  affiliation: Tufts University
+  #correspondence: FALSE
+  # http://www.cs.tufts.edu/~remco
+  # email: remco@cs.tufts.edu
+  # orcid: 0000-0002-6484-6430
+- name: Arun Ross
+  affiliation: Michigan State University
+  #correspondence: FALSE
+  # rossarun@msu.edu
+  # orcid: 0000-0001-8850-3013
+- name: Anne E Thessen
+  affiliation: Oregon State University
+  #correspondence: FALSE
+  # https://github.com/diatomsRcool
+  # email: annethessen@gmail.com
+  # orcid: 0000-0002-2908-3327
+thanks: "Corresponding Author: Ryan Bartelme rbartelme@arizona.edu"
+
+abstract: "The interplay between an organism's genes, its environment, and the expressed phenotype is dynamic. These interactions within ecosystems are shaped by non-linear multiscale effects that are difficult to disentangle into discrete components. Advances in the fields of ontolgoies, unsupervised learning, and genomics are currently disparate. The interoperability of these different data schema is difficult. However, here we present a framework utilizing phenotypic data, knoweldge graphing, and deep learning, to better link phenotypes, environments, and genotypes."
+keywords: "machine learning, genomics, phenotype"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+
+fontsize: 11pt
 geometry: margin=1in
 fontfamily: mathpazo
 spacing: double
+
+bibliography: references.bib
+biblio-style: plantphenomics
 ---
 
 ```{r setup, include=FALSE, echo=FALSE}
@@ -79,16 +109,16 @@ library("yaml")
 # Introduction
 
   Unprecedented anthropogenic climate change necessitates us to have the ability to adapt crops and modify ecosystems.
-Understanding genomic responses of plants and animals to environmental variation allows prediction [@ungerer2008ecological; @des2013genotype]. 
-Environmental factors that influence organismal phenotype, fecundity, morbidity, and mortality in turn affect agricultural and natural ecosystems (Fig. 1). 
-However, multi-scale effects over time and space combined with the non-linearity of natural systems [@lorenz1963deterministic; @ruel1999jensen; @west2009general] obscures the signal of biological processes, interactions with the environment, and the resulting (observable) phenotypes. 
+Understanding genomic responses of plants and animals to environmental variation allows prediction [@ungerer2008ecological; @des2013genotype].
+Environmental factors that influence organismal phenotype, fecundity, morbidity, and mortality in turn affect agricultural and natural ecosystems (Fig. 1).
+However, multi-scale effects over time and space combined with the non-linearity of natural systems [@lorenz1963deterministic; @ruel1999jensen; @west2009general] obscures the signal of biological processes, interactions with the environment, and the resulting (observable) phenotypes.
 Maintaining the innumerable benefits and services agronomic and natural systems provides is therefore critical to our survival and prosperity.
 
   Existing models for predicting phenotypes from genetic and environmental data focus on single species or single ecosystems.
 However, both societal need and technical capabilities are moving toward addressing larger scale questions that require integration of multi-modal data.
 In addition to relatively small and heterogeneous data sets, researchers are relying on national and global data collection efforts [@balch2020neon] such as the National Ecological Observatory Network (NEON) [@keller2008continental] and airborne and space-based Earth Observation Systems (EOS).
 These efforts produce large quantities of homogeneous "born-digital" data, but a significant interdisciplinary data-integration task remains.
-Ontologies and knowledge graphs using semantic similarity to cope with problems of granularity and terminology (e.g., [@mungall_integrating_2010; @stucky_plant_2018]) are now available to facilitate data integration at scales beyond a single taxon or single ecosystem.
+Ontologies and knowledge graphs using semantic similarity to cope with problems of granularity and terminology (e.g., [@mungallintegrating2010; @stuckyplant2018]) are now available to facilitate data integration at scales beyond a single taxon or single ecosystem.
 In addition, as the data sets and questions become more complicated, more non-linear predictive models are needed to address them.
 
 # Challenges of Dataset Interoperability
@@ -116,7 +146,7 @@ After training the ML model on the highly controlled and thorough TERRA-REF data
   The first challenge is to prepare these data for use as input into ML models. In addition to empirical data, ontologically-supported knowledge graphs can be used to inform the ML [@mungall2017monarch].
 Knowledge graphs (KG) are directed acyclic graphs that represent knowledge in a computational format and are an integral part of Google’s Answer Box and IBM’s Watson.
 KGs can help constrain and prioritize results, provide quality control, fill in data gaps with inferencing, and integrate heterogeneous data.
-In this project, KGs  provide an easier way to integrate data from established plant phenome databases such as Planteome [@cooper2018planteome], Gramene [@jaiswal_gramene_2011], and TAIR [@poole_tair_2007].
+In this project, KGs  provide an easier way to integrate data from established plant phenome databases such as Planteome [@cooper2018planteome], Gramene [@jaiswalgramene2011], and TAIR [@pooletair2007].
 The true power of ontologies and KGs is a formal logical structure, enabling inferential and similarity analyses [@mungall2017monarch; @washington2009linking].
 In particular, it is this latter feature that will enable data set interoperability.
 As we begin to make predictions in more complicated systems with multiple species and heterogeneous data, the knowledge graphs will be critical for managing phenotype data.
