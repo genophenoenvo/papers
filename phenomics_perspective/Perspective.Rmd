@@ -15,9 +15,9 @@ header-includes:
 title: "Do androids dream of electric sorhgum?"
 subtitle: "Predicting Phenotype from Multi-Scale Genomic and Environment Data using Neural Networks and Knowledge Graphs"
 author:
-- name: Ryan P Bartelme
+- name: Ryan P Bartelme^[Corresponding Author, rbartelme@email.arizona.edu]
   affiliation: University of Arizona
-  #email: rbartelme@email.arizona.edu
+  #email: "rbartelme@email.arizona.edu"
   # https://github.com/rbartleme
   # orcid: 0000-0002-6178-2603
 - name: David S LeBauer
@@ -83,9 +83,8 @@ author:
   # https://github.com/diatomsRcool
   # email: annethessen@gmail.com
   # orcid: 0000-0002-2908-3327
-thanks: "Corresponding Author: Ryan Bartelme rbartelme@arizona.edu"
 
-abstract: "The interplay between an organism's genes, its environment, and the expressed phenotype is dynamic. These interactions within ecosystems are shaped by non-linear multiscale effects that are difficult to disentangle into discrete components. Advances in the fields of ontolgoies, unsupervised learning, and genomics are currently disparate. The interoperability of these different data schema is difficult. However, here we present a framework utilizing phenotypic data, knoweldge graphing, and deep learning, to better link phenotypes, environments, and genotypes."
+abstract: "The interplay between an organism's genes, its environment, and the expressed phenotype is dynamic. These interactions within ecosystems are shaped by non-linear multi-scale effects that are difficult to disentangle into discrete components. In the face of anthropogenic climate chance, it is critical to understand environmental and genotypic influences on plant phenotypes and phenophase transitions. However, it is difficult to integrate and interoperate between these datasets. Advances in the fields of ontologies, unsupervised learning, and genomics may overcome the disparate data schema. Here we present a framework to better link phenotypes, environments, and genotypes of plant species across ecosystem scales. This approach utilizing phenotypic data, knowledge graphing, and deep learning, serves as the groundwork for a new scientific sub-discipline: *“Computational Ecogenomics”*."
 keywords: "machine learning, genomics, phenotype"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 
