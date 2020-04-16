@@ -168,7 +168,7 @@ EC: c;
 ID: c;
 KS: c;
 MB: c;
-MMT: c;
+MMT: cfrw;
 PBH: c;
 PJ: c;
 RC: c;
