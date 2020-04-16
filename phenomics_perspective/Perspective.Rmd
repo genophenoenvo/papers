@@ -13,16 +13,15 @@ header-includes:
   - \linenumbers
 
 title: "Do androids dream of electric sorhgum?"
-subtitle: "Predicting Phenotype from Multi-Scale Genomic and Environment Data using Neural Networks and Knowledge Graphs"
+subtitle: "Predicting Phenotypes from Multi-Scale Genomic and Environmental Data using Neural Networks and Knowledge Graphs"
 author:
-- name: Ryan P Bartelme^[Corresponding Author, rbartelme@email.arizona.edu]
+- name: Ryan P Bartelme^[Corresponding Author, rbartelme@arizona.edu]
   affiliation: University of Arizona
   #email: "rbartelme@email.arizona.edu"
-  # https://github.com/rbartleme
+  # https://github.com/rbartelme
   # orcid: 0000-0002-6178-2603
 - name: David S LeBauer
   affiliation: University of Arizona
-  #correspondence: FALSE
   # https://github.com/dlebauer
   # email: dlebauer@arizona.edu
   # orcid: 0000-0001-7228-053X
@@ -33,53 +32,51 @@ author:
   # orcid: 0000-0002-6639-7181
 - name: Michael Behrisch
   affiliation: Utrecht University
-  #correspondence: FALSE
+  # email: m.behrisch@uu.nl
 - name: Emily J Cain
-  affiliation: Univerisity of Arizona
+  affiliation: University of Arizona
   # https://github.com/MagicMilly
   # email: ejcain@arizona.edu
   # orcid: 0000-0002-4671-1524
 - name: Ishita Debnath
   affiliation: Michigan State University
-  #correspondence: FALSE
   # email: debnathi@msu.edu
   # orcid: 000-0002-8626-4167
 - name: Pankaj Jaiswal
   affiliation: Oregon State University
-  #correspondence: FALSE
   # email: jaiswalp@science.oregonstate.edu
   # orcid: 0000-0002-1005-8383
 - name: Ab Mosca
   affiliation: Tufts University
-  #correspondence: FALSE
+  # email: amosca01@cs.tufts.edu
+  # orcid: 0000-0002-9008-5516
 - name: Monica Munoz-Torres
   affiliation: Oregon State University
-  #correspondence: FALSE
+  # https://github.com/monicacecilia
   # email: munoztmo@oregonstate.edu
   # orcid: 0000-0001-8430-6039
 - name: Kent Shefchek
   affiliation: Oregon State University
-  #correspondence: FALSE
   # email: shefchek@oregonstate.edu
+  # orcid: 0000-0001-6439-2224
 - name: P. Bryan Heidorn
   affiliation: University of Arizona
-  #correspondence: FALSE
+  # https://github.com/BryanHeidorn
+  # http://si.arizona.edu/users/bryan-heidorn
   # email: heidorn@arizona.edu
   # orcid: 0000-0002-4601-8180
 - name: Remco Chang
   affiliation: Tufts University
-  #correspondence: FALSE
   # http://www.cs.tufts.edu/~remco
   # email: remco@cs.tufts.edu
   # orcid: 0000-0002-6484-6430
 - name: Arun Ross
   affiliation: Michigan State University
-  #correspondence: FALSE
+  # https://www.cse.msu.edu/~rossarun/
   # rossarun@msu.edu
   # orcid: 0000-0001-8850-3013
 - name: Anne E Thessen
   affiliation: Oregon State University
-  #correspondence: FALSE
   # https://github.com/diatomsRcool
   # email: annethessen@gmail.com
   # orcid: 0000-0002-2908-3327
@@ -109,9 +106,11 @@ library("yaml")
 
   Unprecedented anthropogenic climate change necessitates us to have the ability to adapt crops and modify ecosystems.
 Understanding genomic responses of plants and animals to environmental variation allows prediction [@ungerer2008ecological; @des2013genotype].
-Environmental factors that influence organismal phenotype, fecundity, morbidity, and mortality in turn affect agricultural and natural ecosystems (Fig. 1).
+Environmental factors that influence organismal phenotype, fecundity, morbidity, and mortality in turn affect agricultural and natural ecosystems (Figure 1).
 However, multi-scale effects over time and space combined with the non-linearity of natural systems [@lorenz1963deterministic; @ruel1999jensen; @west2009general] obscures the signal of biological processes, interactions with the environment, and the resulting (observable) phenotypes.
 Maintaining the innumerable benefits and services agronomic and natural systems provides is therefore critical to our survival and prosperity.
+
+![System level interactions. Divided into environmental variation (brown cartoons, right of line) interacting across all levels of organismal structure (blue cartoons, left of line)](Figure1.png)
 
   Existing models for predicting phenotypes from genetic and environmental data focus on single species or single ecosystems.
 However, both societal need and technical capabilities are moving toward addressing larger scale questions that require integration of multi-modal data.

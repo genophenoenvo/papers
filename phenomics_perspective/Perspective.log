@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.17)  10 APR 2020 10:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.17)  15 APR 2020 17:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -64,17 +64,39 @@ Package: abstract 2009/06/08 v1.2a configurable abstracts
 \absrightindent=\skip51
 \absparindent=\skip52
 \absparsep=\skip53
+) (/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+(/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+(/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cf
+g
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+(/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen143
+\Gin@req@width=\dimen144
+) (/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/grffile/grffile.sty
+Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legac
+y)
+Package grffile Info: This package is an empty stub for compatibility on input 
+line 40.
 ) (/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \ttl@box=\box45
 \beforetitleunit=\skip54
 \aftertitleunit=\skip55
-\ttl@plus=\dimen143
-\ttl@minus=\dimen144
+\ttl@plus=\dimen145
+\ttl@minus=\dimen146
 \ttl@toksa=\toks19
-\titlewidth=\dimen145
-\titlewidthlast=\dimen146
-\titlewidthfirst=\dimen147
+\titlewidth=\dimen147
+\titlewidthlast=\dimen148
+\titlewidthfirst=\dimen149
 ) (/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip56
@@ -95,16 +117,16 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count180
 \output=\toks20
 \linenoprevgraf=\count181
-\linenumbersep=\dimen148
-\linenumberwidth=\dimen149
+\linenumbersep=\dimen150
+\linenumberwidth=\dimen151
 \c@linenumber=\count182
 \c@pagewiselinenumber=\count183
 \c@LN@truepage=\count184
 \c@internallinenumber=\count185
 \c@internallinenumbers=\count186
-\quotelinenumbersep=\dimen150
-\bframerule=\dimen151
-\bframesep=\dimen152
+\quotelinenumbersep=\dimen152
+\bframerule=\dimen153
+\bframesep=\dimen154
 \bframebox=\box46
 LaTeX Info: Redefining \\ on input line 3056.
 ) (/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -148,7 +170,7 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 y
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-\@linkdim=\dimen153
+\@linkdim=\dimen155
 \Hy@linkcounter=\count187
 \Hy@pagecounter=\count188
 (/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
@@ -183,7 +205,7 @@ Package hyperref Info: Bookmarks ON on input line 4800.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5159.
-\XeTeXLinkMargin=\dimen154
+\XeTeXLinkMargin=\dimen156
 (/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
@@ -193,8 +215,8 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count192
-\Field@Width=\dimen155
-\Fld@charsize=\dimen156
+\Field@Width=\dimen157
+\Fld@charsize=\dimen158
 Package hyperref Info: Hyper figures OFF on input line 6430.
 Package hyperref Info: Link nesting OFF on input line 6435.
 Package hyperref Info: Hyper index ON on input line 6438.
@@ -239,197 +261,195 @@ Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
-(/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-) (/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/graphics/dvipsnam.def
+(/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
-Package hyperref Info: Option `breaklinks' set `true' on input line 115.
+Package hyperref Info: Option `breaklinks' set `true' on input line 124.
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 115.
+(hyperref)                setting the option has no effect on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 115.
+(hyperref)                removing `\@ifnextchar' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 115.
+(hyperref)                removing `\begingroup' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\catcode' on input line 115.
+(hyperref)                removing `\catcode' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\active' on input line 115.
+(hyperref)                removing `\active' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 115.
+(hyperref)                removing `\<def>-command' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 115.
+(hyperref)                removing `\csname\endcsname' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\catcode' on input line 115.
+(hyperref)                removing `\catcode' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\active' on input line 115.
+(hyperref)                removing `\active' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 115.
+(hyperref)                removing `\<let>-command' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 115.
+(hyperref)                removing `\csname\endcsname' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 115.
+(hyperref)                removing `\<let>-command' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\%' on input line 115.
+(hyperref)                removing `\%' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\catcode' on input line 115.
+(hyperref)                removing `\catcode' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\active' on input line 115.
+(hyperref)                removing `\active' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 115.
+(hyperref)                removing `\<def>-command' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 115.
+(hyperref)                removing `\csname\endcsname' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 115.
+(hyperref)                removing `\<def>-command' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\#' on input line 115.
+(hyperref)                removing `\#' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\catcode' on input line 115.
+(hyperref)                removing `\catcode' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 115.
+(hyperref)                removing `\<def>-command' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 115.
+(hyperref)                removing `\csname\endcsname' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 115.
+(hyperref)                removing `\<def>-command' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\&' on input line 115.
+(hyperref)                removing `\&' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 115.
+(hyperref)                removing `\<def>-command' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\textunderscore' on input line 115.
+(hyperref)                removing `\textunderscore' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 115.
+(hyperref)                removing `\<let>-command' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\_' on input line 115.
+(hyperref)                removing `\_' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\catcode' on input line 115.
+(hyperref)                removing `\catcode' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\active' on input line 115.
+(hyperref)                removing `\active' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 115.
+(hyperref)                removing `\<let>-command' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 115.
+(hyperref)                removing `\csname\endcsname' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 115.
+(hyperref)                removing `\<let>-command' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 115.
+(hyperref)                removing `\csname\endcsname' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 115.
+(hyperref)                removing `\<let>-command' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\~' on input line 115.
+(hyperref)                removing `\~' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 115.
+(hyperref)                removing `\<let>-command' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\textasciitilde' on input line 115.
+(hyperref)                removing `\textasciitilde' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 115.
+(hyperref)                removing `\<let>-command' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 115.
+(hyperref)                removing `\\' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 115.
+(hyperref)                removing `\<def>-command' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 115.
+(hyperref)                removing `\csname\endcsname' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 115.
+(hyperref)                removing `\<def>-command' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Hy@tempa' on input line 115.
+(hyperref)                removing `\Hy@tempa' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 115.
+(hyperref)                removing `\<def>-command' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Hy@tempa' on input line 115.
+(hyperref)                removing `\Hy@tempa' on input line 124.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 115.
+Package hyperref Info: Option `colorlinks' set `true' on input line 124.
 (/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
@@ -441,24 +461,24 @@ File: l3backend-pdfmode.def 2020-02-23 L3 backend support: PDF mode
 ) (./Perspective.aux)
 \openout1 = `Perspective.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -493,12 +513,31 @@ LaTeX Font Info:    ... okay on input line 133.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\big@size=\dimen157
+\big@size=\dimen159
+
+(/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-ba
+se.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+(/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys
+.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 \AtBeginShipoutBox=\box48
 
 Package hyperref Warning: Draft mode on.
 
-Package hyperref Info: Link coloring ON on input line 133.
+Package hyperref Info: Link coloring ON on input line 142.
 (/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 (/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
@@ -510,16 +549,16 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count199
 )
-LaTeX Info: Redefining \ref on input line 133.
-LaTeX Info: Redefining \pageref on input line 133.
-LaTeX Info: Redefining \nameref on input line 133.
+LaTeX Info: Redefining \ref on input line 142.
+LaTeX Info: Redefining \pageref on input line 142.
+LaTeX Info: Redefining \nameref on input line 142.
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
-44.
+53.
 (/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 15
-0.
+9.
 (/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 
@@ -543,33 +582,33 @@ LaTeX Warning: Font shape declaration has incorrect series value `mc'.
                Found on input line 46.
 
 )
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 150.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 159.
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 1
-50.
+59.
 (/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-150.
+159.
 (/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-150.
+159.
 (/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-150.
+159.
 (/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-150.
+159.
 (/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-Overfull \hbox (7.34087pt too wide) in paragraph at lines 169--183
+Overfull \hbox (7.34087pt too wide) in paragraph at lines 178--192
 \T1/ppl/m/n/10.95 phenophase tran-si-tions. How-ever, it is dif-fi-cult to in-t
 e-grate and in-ter-op-er-ate be-tween these datasets.
  []
@@ -577,28 +616,34 @@ e-grate and in-ter-op-er-ate be-tween these datasets.
 [1
 
 {/Users/rbartelme/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-] [2] [3] [4] [5] (./Perspective.bbl [6]
+]
+<Figure1.png, id=10, 389.2944pt x 371.2269pt>
+File: Figure1.png Graphic file (type png)
+<use Figure1.png>
+Package pdftex.def Info: Figure1.png  used on input line 229.
+(pdftex.def)             Requested size: 389.29938pt x 371.23164pt.
+[2] [3 <./Figure1.png>] [4] [5] [6] (./Perspective.bbl [7]
 LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 2
 10.
 (/Users/rbartelme/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 ))
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 355.
-[7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 355.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 372.
+[8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 372.
 (./Perspective.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 355.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 355.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 355.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 372.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 372.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 372.
  ) 
 Here is how much of TeX's memory you used:
- 9883 strings out of 482913
- 144878 string characters out of 5958225
- 399802 words of memory out of 5000000
- 25023 multiletter control sequences out of 15000+600000
+ 10221 strings out of 482913
+ 150442 string characters out of 5958225
+ 405193 words of memory out of 5000000
+ 25332 multiletter control sequences out of 15000+600000
  564218 words of font info for 80 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 34i,8n,32p,1411b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,8n,32p,1398b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/rbartelme/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc} </U
 sers/rbartelme/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.6
 00pk></Users/rbartelme/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvb
@@ -606,10 +651,10 @@ sers/rbartelme/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.6
 lb8a.pfb></Users/rbartelme/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/
 uplr8a.pfb></Users/rbartelme/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatin
 o/uplri8a.pfb>
-Output written on Perspective.pdf (7 pages, 88640 bytes).
+Output written on Perspective.pdf (8 pages, 901294 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 65 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
