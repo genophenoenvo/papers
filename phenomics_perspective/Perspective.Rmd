@@ -15,9 +15,9 @@ header-includes:
 title: "Do androids dream of electric sorhgum?"
 subtitle: "Predicting Phenotype from Multi-Scale Genomic and Environment Data using Neural Networks and Knowledge Graphs"
 author:
-- name: Ryan P Bartelme^[Corresponding Author, rbartelme@email.arizona.edu]
+- name: Ryan P Bartelme^[Corresponding Author, rbartelme@arizona.edu]
   affiliation: University of Arizona
-  #email: "rbartelme@email.arizona.edu"
+  #email: "rbartelme@arizona.edu"
   # https://github.com/rbartleme
   # orcid: 0000-0002-6178-2603
 - name: David S LeBauer
