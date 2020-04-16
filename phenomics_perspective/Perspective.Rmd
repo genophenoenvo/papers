@@ -158,21 +158,21 @@ Ultimately, we believe this combination of methods will generate a new scientifi
 
 # Author contributions
 
-The ordering of authors following RB is alphabetical.
+The ordering of authors following RPB is alphabetical, contributions included: conceptualization (c), editing (e), review (r), and text writing (w). 
 
-RPB: Conceptualization, Writing-original draft
-DSL: Conceptualization, Funding Acquisition, Writing-review&editing
-TLS: Conceptualization, Funding Acquisition, Writing-review&editing
-MB: Conceptualization
-EC: Conceptualization
-ID: Conceptualization
-PJ: Conceptualization, Funding Acquisition
-AM: Conceptualization
-MMT: Conceptualization, Funding Acquisition, Project Administration
-KS: Conceptualization
-PBH: Conceptualization, Funding Acquisition
-RC: Conceptualization, Funding Acquisition
-AR: Conceptualization, Funding Acquisition
-AET: Conceptualization, Funding Acquisition, Supervision, Writing-review&editing
+RPB: cew
+AET: cerw
+AM: c;
+AR: c;
+DSL: cerw;
+EC: c;
+ID: c;
+KS: c;
+MB: c;
+MMT: c;
+PBH: c;
+PJ: c;
+RC: c;
+TLS: cerw.
 
 # References
