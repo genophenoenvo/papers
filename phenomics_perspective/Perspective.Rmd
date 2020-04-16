@@ -17,8 +17,8 @@ subtitle: "Predicting Phenotypes from Multi-Scale Genomic and Environmental Data
 author:
 - name: Ryan P Bartelme^[Corresponding Author, rbartelme@arizona.edu]
   affiliation: University of Arizona
-  #email: "rbartelme@email.arizona.edu"
-  # https://github.com/rbartelme
+  #email: "rbartelme@arizona.edu"
+  # https://github.com/rbartleme
   # orcid: 0000-0002-6178-2603
 - name: David S LeBauer
   affiliation: University of Arizona
@@ -157,21 +157,21 @@ Ultimately, we believe this combination of methods will generate a new scientifi
 
 # Author contributions
 
-The ordering of authors following RB is alphabetical.
+The ordering of authors following RPB is alphabetical, contributions included: conceptualization (c), editing (e), review (r), and text writing (w). 
 
-RPB: Conceptualization, Writing-original draft
-DSL: Conceptualization, Funding Acquisition, Writing-review&editing
-TLS: Conceptualization, Funding Acquisition, Writing-review&editing
-MB: Conceptualization
-EC: Conceptualization
-ID: Conceptualization
-PJ: Conceptualization, Funding Acquisition
-AM: Conceptualization
-MMT: Conceptualization, Funding Acquisition, Project Administration
-KS: Conceptualization
-PBH: Conceptualization, Funding Acquisition
-RC: Conceptualization, Funding Acquisition
-AR: Conceptualization, Funding Acquisition
-AET: Conceptualization, Funding Acquisition, Supervision, Writing-review&editing
+RPB: cew
+AET: cerw
+AM: c;
+AR: c;
+DSL: cerw;
+EC: c;
+ID: c;
+KS: c;
+MB: c;
+MMT: c;
+PBH: c;
+PJ: c;
+RC: c;
+TLS: cerw.
 
 # References
