@@ -12,7 +12,7 @@ header-includes:
   - \usepackage[left]{lineno}
   - \linenumbers
 
-title: "Do androids dream of electric sorhgum?"
+title: "Do androids dream of electric sorghum?"
 subtitle: "Predicting Phenotypes from Multi-Scale Genomic and Environmental Data using Neural Networks and Knowledge Graphs"
 author:
 - name: Ryan P Bartelme^[Corresponding Author, rbartelme@arizona.edu]
@@ -20,16 +20,6 @@ author:
   #email: "rbartelme@arizona.edu"
   # https://github.com/rbartleme
   # orcid: 0000-0002-6178-2603
-- name: David S LeBauer
-  affiliation: University of Arizona
-  # https://github.com/dlebauer
-  # email: dlebauer@arizona.edu
-  # orcid: 0000-0001-7228-053X
-- name: Tyson L Swetnam
-  affiliation: University of Arizona
-  # https://github.com/tyson-swetnam
-  # email: tswetnam@arizona.edu
-  # orcid: 0000-0002-6639-7181
 - name: Michael Behrisch
   affiliation: Utrecht University
   # email: m.behrisch@uu.nl
@@ -42,10 +32,6 @@ author:
   affiliation: Michigan State University
   # email: debnathi@msu.edu
   # orcid: 000-0002-8626-4167
-- name: Pankaj Jaiswal
-  affiliation: Oregon State University
-  # email: jaiswalp@science.oregonstate.edu
-  # orcid: 0000-0002-1005-8383
 - name: Ab Mosca
   affiliation: Tufts University
   # email: amosca01@cs.tufts.edu
@@ -70,11 +56,25 @@ author:
   # http://www.cs.tufts.edu/~remco
   # email: remco@cs.tufts.edu
   # orcid: 0000-0002-6484-6430
+- name: Pankaj Jaiswal
+  affiliation: Oregon State University
+  # email: jaiswalp@science.oregonstate.edu
+  # orcid: 0000-0002-1005-8383
+- name: David S LeBauer
+  affiliation: University of Arizona
+  # https://github.com/dlebauer
+  # email: dlebauer@arizona.edu
+  # orcid: 0000-0001-7228-053X
 - name: Arun Ross
   affiliation: Michigan State University
   # https://www.cse.msu.edu/~rossarun/
   # rossarun@msu.edu
   # orcid: 0000-0001-8850-3013
+- name: Tyson L Swetnam
+  affiliation: University of Arizona
+  # https://github.com/tyson-swetnam
+  # email: tswetnam@arizona.edu
+  # orcid: 0000-0002-6639-7181
 - name: Anne E Thessen
   affiliation: Oregon State University
   # https://github.com/diatomsRcool
@@ -168,7 +168,7 @@ EC: c;
 ID: c;
 KS: c;
 MB: c;
-MMT: c;
+MMT: cfrw;
 PBH: c;
 PJ: c;
 RC: c;
