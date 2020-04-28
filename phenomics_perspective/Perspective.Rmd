@@ -28,34 +28,21 @@ author:
   # https://github.com/MagicMilly
   # email: ejcain@arizona.edu
   # orcid: 0000-0002-4671-1524
+- name: Remco Chang
+  affiliation: Tufts University
+  # http://www.cs.tufts.edu/~remco
+  # email: remco@cs.tufts.edu
+  # orcid: 0000-0002-6484-6430
 - name: Ishita Debnath
   affiliation: Michigan State University
   # email: debnathi@msu.edu
   # orcid: 000-0002-8626-4167
-- name: Ab Mosca
-  affiliation: Tufts University
-  # email: amosca01@cs.tufts.edu
-  # orcid: 0000-0002-9008-5516
-- name: Monica Munoz-Torres
-  affiliation: Oregon State University
-  # https://github.com/monicacecilia
-  # email: munoztmo@oregonstate.edu
-  # orcid: 0000-0001-8430-6039
-- name: Kent Shefchek
-  affiliation: Oregon State University
-  # email: shefchek@oregonstate.edu
-  # orcid: 0000-0001-6439-2224
 - name: P. Bryan Heidorn
   affiliation: University of Arizona
   # https://github.com/BryanHeidorn
   # http://si.arizona.edu/users/bryan-heidorn
   # email: heidorn@arizona.edu
   # orcid: 0000-0002-4601-8180
-- name: Remco Chang
-  affiliation: Tufts University
-  # http://www.cs.tufts.edu/~remco
-  # email: remco@cs.tufts.edu
-  # orcid: 0000-0002-6484-6430
 - name: Pankaj Jaiswal
   affiliation: Oregon State University
   # email: jaiswalp@science.oregonstate.edu
@@ -65,11 +52,24 @@ author:
   # https://github.com/dlebauer
   # email: dlebauer@arizona.edu
   # orcid: 0000-0001-7228-053X
+- name: Ab Mosca
+  affiliation: Tufts University
+  # email: amosca01@cs.tufts.edu
+  # orcid: 0000-0002-9008-5516
+- name: Monica Munoz-Torres
+  affiliation: Oregon State University
+  # https://github.com/monicacecilia
+  # email: munoztmo@oregonstate.edu
+  # orcid: 0000-0001-8430-6039
 - name: Arun Ross
   affiliation: Michigan State University
   # https://www.cse.msu.edu/~rossarun/
   # rossarun@msu.edu
   # orcid: 0000-0001-8850-3013
+- name: Kent Shefchek
+  affiliation: Oregon State University
+  # email: shefchek@oregonstate.edu
+  # orcid: 0000-0001-6439-2224
 - name: Tyson L Swetnam
   affiliation: University of Arizona
   # https://github.com/tyson-swetnam
@@ -116,7 +116,7 @@ Maintaining the innumerable benefits and services agronomic and natural systems 
 However, both societal need and technical capabilities are moving toward addressing larger scale questions that require integration of multi-modal data.
 In addition to relatively small and heterogeneous data sets, researchers are relying on national and global data collection efforts [@balch2020neon] such as the National Ecological Observatory Network (NEON) [@keller2008continental] and airborne and space-based Earth Observation Systems (EOS).
 These efforts produce large quantities of homogeneous "born-digital" data, but a significant interdisciplinary data-integration task remains.
-Ontologies and knowledge graphs using semantic similarity to cope with problems of granularity and terminology (e.g., [@mungallintegrating2010; @stuckyplant2018]) are now available to facilitate data integration at scales beyond a single taxon or single ecosystem.
+Ontologies and knowledge graphs using semantic similarity to cope with problems of granularity and terminology [@mungallintegrating2010; @stuckyplant2018] facilitate data integration at scales beyond a single taxon or single ecosystem.
 In addition, as the data sets and questions become more complicated, more non-linear predictive models are needed to address them.
 
 # Challenges of Dataset Interoperability
@@ -157,21 +157,20 @@ Ultimately, we believe this combination of methods will generate a new scientifi
 
 # Author contributions
 
-The ordering of authors following RPB is alphabetical, contributions included: conceptualization (c), editing (e), review (r), and text writing (w). 
-
-RPB: cew
-AET: cerw
-AM: c;
-AR: c;
-DSL: cerw;
-EC: c;
-ID: c;
-KS: c;
-MB: c;
-MMT: cfrw;
-PBH: c;
-PJ: c;
-RC: c;
-TLS: cerw.
+The ordering of authors following first is alphabetical with senior author last, contributions included: conceptualization (c), editing (e), review (r), and text writing (w). 
+RPB: cew,
+MB: c,
+EC: c,
+RC: c,
+ID: c,
+PBH: c,
+PJ: c,
+DSL: cerw,
+AM: c,
+MMT: cfrw,
+AR: c,
+KS: c,
+TLS: cerw,
+AET: cerw.
 
 # References
