@@ -31,7 +31,7 @@ author:
 - name: Ishita Debnath
   affiliation: Michigan State University
   # email: debnathi@msu.edu
-  # orcid: 000-0002-8626-4167
+  # orcid: 0000-0002-8626-4167
 - name: Ab Mosca
   affiliation: Tufts University
   # email: amosca01@cs.tufts.edu
@@ -168,7 +168,7 @@ EC: c;
 ID: c;
 KS: c;
 MB: c;
-MMT: cfrw;
+MMT: crw;
 PBH: c;
 PJ: c;
 RC: c;
