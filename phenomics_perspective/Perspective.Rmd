@@ -164,11 +164,11 @@ AET: cerw
 AM: c;
 AR: c;
 DSL: cerw;
-EC: c;
+EC: cr;
 ID: c;
 KS: c;
 MB: c;
-MMT: cfrw;
+MMT: cerw;
 PBH: c;
 PJ: c;
 RC: c;
