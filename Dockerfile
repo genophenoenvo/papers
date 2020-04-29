@@ -16,10 +16,10 @@ COPY . ${HOME}
 RUN chown -R ${NB_USER} ${HOME}
 
 #Installs TinyTeX for RStudio LaTeX
-RUN cd && wget -qO- "https://yihui.org/gh/tinytex/tools/install-unx.sh" | sh && tlmgr install psnfss
+#RUN cd && wget -qO- "https://yihui.org/gh/tinytex/tools/install-unx.sh" | sh && tlmgr install psnfss
 
 #| sh && tlmgr install ifluatex| sh && tlmgr install ifxetex
-RUN R -e "tinytex::install_tinytex(extra_packages=c('iftex','ifluatex','pdftexcmds','grffile','epstopdf-pkg','lm-math','unicode-math','lualatex-math','filehook'))"
+#RUN R -e "tinytex::install_tinytex(extra_packages=c('iftex','ifluatex','pdftexcmds','grffile','epstopdf-pkg','lm-math','unicode-math','lualatex-math','filehook'))"
 
 ## Become normal user again
 USER ${NB_USER}
