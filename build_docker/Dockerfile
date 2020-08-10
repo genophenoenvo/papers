@@ -8,9 +8,11 @@ RUN apt-get update && apt-get -y install libgsl-dev
 
 RUN cd && wget -qO- "https://yihui.org/gh/tinytex/tools/install-unx.sh" | sh && tlmgr install psnfss
 
-RUN chown -R jovyan:staff /home/jovyan 
+RUN chown -R jovyan:root /home/jovyan 
 
-RUN chown -R jovyan:staff /opt
+RUN chown -R jovyan:root /opt
+
+RUN chown -R jovyan:root /tmp
 
 USER jovyan
 
