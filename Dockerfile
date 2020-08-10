@@ -1,5 +1,5 @@
 ## Use a tag instead of "latest" for reproducibility
-FROM tswetnam/gep-binder:latest
+FROM rocker/binder:4.0.2
 
 ## Declares build arguments
 ARG NB_USER
@@ -16,10 +16,11 @@ COPY . ${HOME}
 RUN chown -R ${NB_USER} ${HOME}
 
 #Installs TinyTeX for RStudio LaTeX
-#RUN cd && wget -qO- "https://yihui.org/gh/tinytex/tools/install-unx.sh" | sh && tlmgr install psnfss
+RUN apt-get update && apt-get -y install libgsl-dev 
 
-#| sh && tlmgr install ifluatex| sh && tlmgr install ifxetex
-#RUN R -e "tinytex::install_tinytex(extra_packages=c('iftex','ifluatex','pdftexcmds','grffile','epstopdf-pkg','lm-math','unicode-math','lualatex-math','filehook'))"
+RUN cd && wget -qO- "https://yihui.org/gh/tinytex/tools/install-unx.sh" | sh && tlmgr install psnfss
+
+RUN R -e "tinytex::install_tinytex(extra_packages=c('iftex','ifluatex','pdftexcmds','grffile','epstopdf-pkg','lm-math','unicode-math','lualatex-math','filehook'))"
 
 ## Become normal user again
 USER ${NB_USER}
