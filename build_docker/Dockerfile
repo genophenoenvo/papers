@@ -6,7 +6,12 @@ USER root
 #Installs depends for TinyTeX for RStudio LaTeX
 RUN apt-get update && apt-get -y install libgsl-dev 
 
-RUN cd && wget -qO- "https://yihui.org/gh/tinytex/tools/install-unx.sh" | sh && tlmgr install psnfss
+RUN cd && wget -qO- "https://yihui.org/gh/tinytex/tools/install-unx.sh" | sh
+
+RUN tlmgr install psnfss && \
+    tlmgr update --self --all && \
+    tlmgr path add && \
+    fmtutil-sys --all
 
 RUN chown -R jovyan:root /home/jovyan 
 
@@ -16,7 +21,7 @@ RUN chown -R jovyan:root /tmp
 
 USER jovyan
 
-RUN R -e "tinytex::install_tinytex(extra_packages=c('iftex','ifluatex','pdftexcmds','grffile','epstopdf-pkg','lm-math','unicode-math','lualatex-math','filehook'))"
+RUN R -e "tinytex::install_tinytex(extra_packages=c('iftex','pdftexcmds','grffile','epstopdf-pkg','lm-math','unicode-math','lualatex-math','filehook'))"
 
 ## Copies your repo files into the Docker Container
 COPY . ${HOME}
