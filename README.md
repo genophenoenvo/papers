@@ -11,12 +11,29 @@ All analytical tools, code, and data sets are open source and online to allow be
 |-----------|----------|---------------|-----|------|-----------|
 | [Bartelme et al.](https://github.com/genophenoenvo/papers/tree/master/phenomics_perspective) | [PDF](https://github.com/genophenoenvo/papers/raw/master/phenomics_perspective/Perspective.pdf) | [![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/genophenoenvo/papers/master?urlpath=rstudio) | | n/a | <i class="fab fa-python"></i> [Rmd](https://raw.githubusercontent.com/genophenoenvo/papers/master/phenomics_perspective/Perspective.Rmd) |
 
-## details
+## Guide to using this repository
 
-Repository for each pre-print and peer reviewed paper written by the Geno-Pheno-Envo Collaborative Research Group.
+This repository hosts each pre-print and peer reviewed paper written by the Geno-Pheno-Envo Collaborative Research Group.
 
-Individual folders contain each indvidual research manuscript with supporting notebooks and code, subdirectories with Bibtex, in markdown formatting.
+Individual folders contain each research manuscript with supporting notebooks, code, subdirectories with BibTeX, mostly in markdown formatting.
 
+### Edit with Binder
+
+We use Docker containers created by the [Rocker Project](https://rocker-project.org) which are run using [Jupyter Binder](https://jupyter.org/binder), which provides a temporary, free, virtual machine.  
+
+When you launch a manuscript with Binder, a new browser tab will open and the environment launch either into RStudio or Jupyter Notebooks. Navigate to the directory with the manuscript of interest.
+
+If the manuscript is written in Rmd, select the Rmd file in RStudio and click on `Knit` -- this will render the manuscript text and figures as PDF. 
+
+Note: it may take several minutes to render a PDF the first time, as fonts and other dependencies are installed into the Binder VM for the first time. 
+
+### Data Sets
+
+Data sets which are too large to host on GitHub, are hosted on CyVerse Data Store and will by dynamically downloaded into the notebooks and into the virtual machines running the manuscripts when they are executed upon.
+
+### Notebooks
+
+This repository hosts the finalized versions of notebooks used in the publications of the Geno-Pheno-Envo project. Experimental Notebooks are hosted in our other GitHub Organizational repositories. 
 
 ### Acknowledgements
 
