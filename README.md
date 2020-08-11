@@ -9,7 +9,7 @@ All analytical tools, code, and data sets are open source and online to allow be
 
 | Pre-print | Download | Edit (Binder) | DOI | Data | Notebooks |
 |-----------|----------|---------------|-----|------|-----------|
-| [Bartelme et al.]() | [PDF](https://github.com/genophenoenvo/papers/raw/master/phenomics_perspective/Perspective.pdf) | [![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/genophenoenvo/papers/master?urlpath=rstudio) | | n/a | <i class="fab fa-python"></i> [Rmd](https://raw.githubusercontent.com/genophenoenvo/papers/master/phenomics_perspective/Perspective.Rmd) |
+| [Bartelme et al.](https://github.com/genophenoenvo/papers/tree/master/phenomics_perspective) | [PDF](https://github.com/genophenoenvo/papers/raw/master/phenomics_perspective/Perspective.pdf) | [![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/genophenoenvo/papers/master?urlpath=rstudio) | | n/a | <i class="fab fa-python"></i> [Rmd](https://raw.githubusercontent.com/genophenoenvo/papers/master/phenomics_perspective/Perspective.Rmd) |
 
 ## details
 
